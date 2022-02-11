@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .sr-only {
@@ -75,13 +75,100 @@ body {
 .home-section {
   width: 100%;
   height: 100%;
-  background-image: url(../images/home.png);
+  background-image: url(../images/nusantara.png);
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: cover;
+  
 }
 
 .front {
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.6); */
   width: 100%;
   height: 100%;
+}
+
+.center-content {
+  margin: 15% 25% 15% 15%;
+  padding: 8%;
+  background: rgba(0, 0, 0, 0.6);
+  height: 50%;
+  width: 70%;
+  text-align: center;
+  position: absolute;
+  border-radius: 50px;
+}
+
+.landing-head {
+  color: #fff;
+  font-size: 50px;
+  /* font-weight: bold; */
+  font-family: gelasio;
+  margin-bottom: 4%;
+}
+
+.landing-text {
+  color: #fff;
+  margin-bottom: 4%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-evote {
+  width : 80%;
+  height : 70px;
+  background-color: transparent;
+  border: 4px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  font-family: poppins;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.definisi-head {
+  font-size: 50px;
+}
+
+.jargon {
+  font-family: andada;
+  font-size: 30px;
+  font-style: bold;
+  color: #f31d47;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.video {
+  margin-top: 4%;
+  height: 300px;
+}
+
+.sections {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-zoom {
+  width : 40%;
+  height : 60px;
+  background-color: #F0B60C;
+  border: 4px solid #F0B60C;
+  border: 0px;
+  border-radius: 40px;
+  color: #fff !important;
+  font-family: poppins;
+  font-style: bold;
+  font-size: 16px;
+}
+
+.btn-voting {
+  width : 40%;
+  height : 60px;
+  background-color: transparent;
+  border: 4px solid #F0B60C;
+  border-radius: 50px;
+  color: #F0B60C;
+  font-family: poppins;
+  font-style: bold;
+  font-size: 20px;
 }
