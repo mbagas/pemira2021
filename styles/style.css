@@ -285,9 +285,9 @@ footer {
   padding: 25px;
   background-color: #2c2d2e;
   color: #fff !important ;
-  position: absolute;
+  position: relative;
   width: 100%;
-  bottom: 0;
+  bottom: -100;
 }
 
 footer a {
