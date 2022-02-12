@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="styles/header-1.css" />
     <link rel="stylesheet" href="styles/reset.min.css" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="fontawesome6/fontawesome-free-6.0.0-web/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="fontawesome6\fontawesome-free-6.0.0-web\css\all.min.css" />
     <title>Document</title>
 </head>
 <body>
     <header class="site-header">
         <div class="wrapper site-header__wrapper">
-          <a href="#" class="brand">PEMIRA</a>
+          <a href="#" class="brand"><img class="img-nav" src="images/logo_pemira.png" class="card-img-top" alt="...">PEMIRA</a>
           <nav class="nav">
             <button class="nav__toggle menu-btn" aria-expanded="false" type="button">
               <div class="menu"></div>
@@ -63,7 +65,7 @@
             </button>
           </div>
           <div class="modal-body" align="center">
-            <button type="button" class="btn-zoom" data-toggle="modal" data-target="#exampleModal"><a href="list_zoom.html">List Link Zoom</a> </button>
+            <a href="list_zoom.html"><button type="button" class="btn-zoom" data-toggle="modal" data-target="#exampleModal">List Link Zoom</button></a>
             <button type="button" class="btn-voting" data-toggle="modal" data-target="#exampleModal">Voting</button>
           </div>
           <div class="modal-footer">
@@ -134,7 +136,7 @@
               <div class="card-body">
                 <h5 class="card-title">Arbi Aditya Ramadhan A</h5>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                <a href="#" class="btn btn-primary">Detail</a>
+                <a href="arbi.html"><button type="button" class="btn-detail" data-toggle="modal" data-target="#exampleModal">Detail</button></a> 
               </div>
             </div>
           </div>
@@ -144,7 +146,7 @@
               <div class="card-body">
                 <h5 class="card-title">Kotak Kosong</h5>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                <a href="#" class="btn btn-primary">Detail</a>
+                <a href="#"><button type="button" class="btn-detail" data-toggle="modal" data-target="#exampleModal">Detail</button></a> 
               </div>
             </div>
           </div>
@@ -275,7 +277,23 @@
       </div>
     </div>
 
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-lg-6 col-md-12">
+            Copyright &copy Pemira KM ITERA 2021
+          </div>
+          <div class="col-lg-6 col-md-12" >
+              <a href="https://www.instagram.com/pemiraitera2021/">Instagram <i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="js/header-1.js"></script>
+    <!-- <script src="fontawesome6\fontawesome-free-6.0.0-web\js\fontawesome.min.js"></script> -->
+    <!-- <script src="fontawesome6\fontawesome-free-6.0.0-web\js\all.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
